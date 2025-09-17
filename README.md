@@ -30,5 +30,5 @@ Each project fulfills the required user stories and passes the freeCodeCamp test
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/yourusername/FreeCodeCamp.git
+   git clone https://github.com/zareef09/FreeCodeCamp.git
    cd FreeCodeCamp
