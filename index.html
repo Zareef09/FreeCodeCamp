@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>RPG Creature Search App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>RPG Creature Search</h1>
+
+  <!-- Required input + button -->
+  <input id="search-input" type="text" placeholder="Enter creature name or ID" required />
+  <button id="search-button" type="button">Search</button>
+
+  <!-- Display area: all required IDs exist in HTML (steps 1–13) -->
+  <section id="creature-card">
+    <h2 id="creature-name"></h2>
+    <p id="creature-id"></p>
+
+    <div class="row">
+      <p id="weight"></p>
+      <p id="height"></p>
+    </div>
+
+    <div>
+      <strong>Types:</strong>
+      <div id="types"></div>
+    </div>
+
+    <h3>Stats</h3>
+    <ul class="stats">
+      <li>HP: <span id="hp"></span></li>
+      <li>Attack: <span id="attack"></span></li>
+      <li>Defense: <span id="defense"></span></li>
+      <li>Special Attack: <span id="special-attack"></span></li>
+      <li>Special Defense: <span id="special-defense"></span></li>
+      <li>Speed: <span id="speed"></span></li>
+    </ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
