@@ -5,7 +5,7 @@ Each project fulfills the required user stories and passes the freeCodeCamp test
 
 ---
 
-## 🚀 Projects
+## Projects
 
 ### Cash Register
 - **Description**: A web app that calculates change due for a purchase  
